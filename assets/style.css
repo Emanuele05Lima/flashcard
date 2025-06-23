@@ -2,6 +2,9 @@ body {
 background-color: rgb(196, 255, 235);
 font-family: Bai Jamjuree;
 }
+#container {
+display:flex ;
+}
 footer {
 background-color: black;
 color: white;
