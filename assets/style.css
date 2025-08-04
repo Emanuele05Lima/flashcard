@@ -61,9 +61,10 @@ color: var(--card-back-color);
 font-weight: 700;
 }
 
-.cartao:hover .cartao__conteudo {
-transform: rotateY(180deg);
+.cartao.active .cartao__conteudo {
+    transform: rotateY(180deg);
 }
+
 
 .cartao__conteudo__pergunta,
 .cartao__conteudo__resposta {
@@ -71,6 +72,7 @@ backface-visibility: hidden;
 position: absolute;
 height: 100%;
 width: 100%;
+box-sizing: border-box;
 }
 
 .cartao__conteudo__resposta {
